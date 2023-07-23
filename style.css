@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.main{
+    background: url(pic/bg.jpg); 
+     background-position: center; 
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+ width: 50%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    transition: 0.6s;
+    padding: 40px 100px;
+}
+
+header .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: -2%;
+}
+
+header ul{
+     position: relative;
+     display:flex;
+     justify-content:center;
+     align-items:center; 
+}
+header ul li{
+    position:relative;
+    list-style: none;
+
+}
+header ul li a{
+    position:relative;
+    margin:0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s; 
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+}
+
+ .navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: -2%;
+} 
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+/* .image{
+   
+    position: absolute;
+    right: 0;
+    bottom: 0;
+     align-items: center;
+     justify-content: center;
+     flex-flow: column;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+} */
+
+
+ .image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5rem;
+} 
+
+ .image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 55%;
+} 
+
+ .icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
+
+/* About section style */
+.about span{
+    color: rgb(230,104,59);
+}
+.about h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 3px;
+}
+.para{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.para span{
+    color: rgb(230,104,59);
+}
+.qual{
+    margin-left:13%;
+}
+
+
+/* Skill section */
+.container{
+    padding-top: 5%;
+    margin-left: 6%;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 250px;
+    height: 7px;
+    background-color: orange;
+    border: 1px solid black;
+}
+.t5{
+    width: 100px;
+    background-color:skyblue;
+    border: 1px solid black;
+}
+.t6{
+    width: 160px;
+    background-color:skyblue;
+    border: 1px solid black;
+}
+.t9{
+    width: 190px;
+    background-color:skyblue;
+    border: 1px solid black;
+}
+.par{
+    margin-left: 6%;
+    font-size: 22px;
+}
+.par span{
+    color: rgb(230,104,59);
+}
+
+/* Contact */
+.pa{
+    margin-left: 6%;
+    font-size: 22px;
+}
+.pa span{
+    color: orange;
+}
